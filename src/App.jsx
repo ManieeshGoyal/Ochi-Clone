@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 
 export default function App() {
   return (
-    <div className="w-full h-screen bg-zinc-900 text-white">
+    <div className="w-full h-screen bg-zinc-900 text-white font-Montserrat ">
       <Navbar />
     </div>
   );
