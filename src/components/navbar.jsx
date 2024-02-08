@@ -34,10 +34,14 @@ function Navbar() {
         </svg>
       </div>
 
-      <div className="links flex gap-8 text-base">
-        {["Services", "Our work", "About us", "Insights"].map((link) => (
-          <a href="#">{link}</a>
-        ))}
+      <div className="links flex gap-8 text-[1.1rem]">
+        {["Services", "Our work", "About us", "Insights", "Contact us"].map(
+          (link, i) => (
+            <a className={`${i === 4 ? "ml-48" : ""}  tracking-wide`} href="#">
+              {link}
+            </a>
+          )
+        )}
       </div>
     </nav>
   );
