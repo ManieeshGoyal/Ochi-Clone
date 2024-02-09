@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="w-full px-20 py-8 flex justify-between items-center">
+    <nav className="w-full px-20 py-8 flex  justify-between items-center">
       <div className="logo">
         <svg
           width="72"
@@ -34,7 +34,7 @@ function Navbar() {
         </svg>
       </div>
 
-      <div className="links flex gap-8 text-[1.1rem]">
+      <div className="links flex gap-8 font-light  text-[1.2rem]">
         {["Services", "Our work", "About us", "Insights", "Contact us"].map(
           (link, i) => (
             <a className={`${i === 4 ? "ml-48" : ""}  tracking-wide`} href="#">
